@@ -1,17 +1,22 @@
 # Weather App
 
 > 날씨 Api 사용 : 'https://openweathermap.org/';
+
 - 첫 화면
-<img src='./readmeImgs/1.png'>
+
+<img src='./readmeImgs/1.png'/> <br><br>
 
 - 한국 검색
-<img src='./readmeImgs/2.png'>
+
+<img src='./readmeImgs/2.png'/> <br><br>
 
 - 중국 검색
-<img src='./readmeImgs/3.png'>
+
+<img src='./readmeImgs/3.png'/> <br><br>
 
 - not found 화면
-<img src='./readmeImgs/4.png'>
+
+<img src='./readmeImgs/4.png'/>
 
 ---
 
