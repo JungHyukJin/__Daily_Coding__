@@ -1,8 +1,8 @@
 # Modern Signup Page #1
 > 반응형 웹
 
-<img src="./1.png">
-<img src="./2.png">
+<img src="./readmeImgs/1.png">
+<img src="./readmeImgs/2.png">
 
 ```html
 <!-- html -->
