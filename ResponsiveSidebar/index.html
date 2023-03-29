@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 | Responsive Sidebar #1</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <nav class='sidebar'>
+        <div class="sidebar-inner">
+            <header class="sidebar-header">
+                <button type="button" class="sidebar-burger" onclick="toggleSidebar()">
+                    <i class='bx bx-menu'></i>
+                </button>
+                <div class="sidebar-logoWrapper">
+                    <i class='bx bxs-tree sidebar-logo'></i>
+                    <span class="sidebar-logoName">Sidebar Open</span>
+                </div>
+            </header>
+
+            <nav class="sidebar-menu">
+                <button type="button">
+                    <i class='bx bx-home' ></i>
+                    <span>Home</span>
+                </button>
+                <button type="button" class="has-border">
+                    <i class='bx bx-user-circle' ></i>
+                    <span>User</span>
+                </button>
+                <button type="button">
+                    <i class='bx bx-map' ></i>
+                    <span>Map</span>
+                </button>
+                <button type="button" class="has-border">
+                    <i class='bx bx-data' ></i>
+                    <span>Database</span>
+                </button>
+                <button type="button">
+                    <i class='bx bx-cog' ></i>
+                    <span>Settings</span>
+                </button>
+            </nav>
+        </div>
+    </nav>
+</body>
+
+</html>
