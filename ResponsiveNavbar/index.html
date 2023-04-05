@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Day 8 | Responsive Navbar #1</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="index.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+        <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+            <i class='bx bx-menu-alt-left'></i>
+        </button>
+
+        <h1 class="navbar-title">Navbar</h1>
+        <nav class="navbar-menu">
+            <button type="button" class="active">Youtube</button>
+            <button type="button" >Archive</button>
+            <button type="button" >Projects</button>
+        </nav>
+    </nav>
+</body>
+</html>
