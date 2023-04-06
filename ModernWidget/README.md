@@ -1,6 +1,6 @@
 # Day 10 | Modern Widget
 
-> 항사 JS로 구현했던 것... 단순히 HTML + CSS로 구현 가능!!
+> 항상 JS로 구현했던 것... 단순히 HTML + CSS로 구현 가능!!
 
 <img src="./readmeImgs/1.png"> </br></br>
 
